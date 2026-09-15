@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49329F303059099300D13393 /* Build configuration list for PBXProject "homework1_Bastien_GENOVA_git" */;
+			buildConfigurationList = 49329F303059099300D13393 /* Build configuration list for PBXProject "C++_hanyang" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -287,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49329F303059099300D13393 /* Build configuration list for PBXProject "homework1_Bastien_GENOVA_git" */ = {
+		49329F303059099300D13393 /* Build configuration list for PBXProject "C++_hanyang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49329F3A3059099300D13393 /* Debug */,
