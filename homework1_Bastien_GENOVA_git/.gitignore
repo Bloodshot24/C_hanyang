@@ -1,0 +1,30 @@
+# ==========================================
+# Xcode Build Artifacts & Derived Data
+# ==========================================
+build/
+DerivedData/
+*.moved-aside
+
+# ==========================================
+# Xcode User-Specific Settings
+# ==========================================
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# ==========================================
+# C++ / Compiler Artifacts
+# ==========================================
+*.o
+*.out
+*.app
+
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
