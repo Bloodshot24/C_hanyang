@@ -6,6 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildRule section */
+		49329F4030590DCF00D13393 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		49329F4130590DD000D13393 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		49329F333059099300D13393 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -69,6 +94,8 @@
 				49329F333059099300D13393 /* CopyFiles */,
 			);
 			buildRules = (
+				49329F4130590DD000D13393 /* PBXBuildRule */,
+				49329F4030590DCF00D13393 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
