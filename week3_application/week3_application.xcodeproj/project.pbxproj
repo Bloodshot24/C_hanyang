@@ -3,15 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 110;
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		491576E730590FBE003EC147 /* CopyFiles */ = {
+		49860382305A4DF4008CBA9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstSubfolder = None;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -19,40 +18,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		491576E930590FBE003EC147 /* week1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week1; sourceTree = BUILT_PRODUCTS_DIR; };
+		49860384305A4DF4008CBA9E /* week3_application */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week3_application; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		491576EB30590FBE003EC147 /* week1 */ = {
+		49860386305A4DF4008CBA9E /* week3_application */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = week1;
+			path = week3_application;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		491576E630590FBE003EC147 /* Frameworks */ = {
+		49860381305A4DF4008CBA9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		491576E030590FBE003EC147 = {
+		4986037B305A4DF4008CBA9E = {
 			isa = PBXGroup;
 			children = (
-				491576EB30590FBE003EC147 /* week1 */,
-				491576EA30590FBE003EC147 /* Products */,
+				49860386305A4DF4008CBA9E /* week3_application */,
+				49860385305A4DF4008CBA9E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		491576EA30590FBE003EC147 /* Products */ = {
+		49860385305A4DF4008CBA9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				491576E930590FBE003EC147 /* week1 */,
+				49860384305A4DF4008CBA9E /* week3_application */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,73 +57,67 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		491576E830590FBE003EC147 /* week1 */ = {
+		49860383305A4DF4008CBA9E /* week3_application */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491576F030590FBE003EC147 /* Build configuration list for PBXNativeTarget "week1" */;
+			buildConfigurationList = 4986038B305A4DF4008CBA9E /* Build configuration list for PBXNativeTarget "week3_application" */;
 			buildPhases = (
-				491576E530590FBE003EC147 /* Sources */,
-				491576E630590FBE003EC147 /* Frameworks */,
-				491576E730590FBE003EC147 /* CopyFiles */,
+				49860380305A4DF4008CBA9E /* Sources */,
+				49860381305A4DF4008CBA9E /* Frameworks */,
+				49860382305A4DF4008CBA9E /* CopyFiles */,
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
-				491576EB30590FBE003EC147 /* week1 */,
+				49860386305A4DF4008CBA9E /* week3_application */,
 			);
-			name = week1;
-			packageProductDependencies = (
-			);
-			productName = week1;
-			productReference = 491576E930590FBE003EC147 /* week1 */;
+			name = week3_application;
+			productName = week3_application;
+			productReference = 49860384305A4DF4008CBA9E /* week3_application */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		491576E130590FBE003EC147 /* Project object */ = {
+		4986037C305A4DF4008CBA9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					491576E830590FBE003EC147 = {
-						CreatedOnToolsVersion = 16.2;
+					49860383305A4DF4008CBA9E = {
+						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = 491576E430590FBE003EC147 /* Build configuration list for PBXProject "week1" */;
+			buildConfigurationList = 4986037F305A4DF4008CBA9E /* Build configuration list for PBXProject "week3_application" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 491576E030590FBE003EC147;
+			mainGroup = 4986037B305A4DF4008CBA9E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 491576EA30590FBE003EC147 /* Products */;
+			productRefGroup = 49860385305A4DF4008CBA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				491576E830590FBE003EC147 /* week1 */,
+				49860383305A4DF4008CBA9E /* week3_application */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		491576E530590FBE003EC147 /* Sources */ = {
+		49860380305A4DF4008CBA9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		491576EE30590FBE003EC147 /* Debug */ = {
+		49860389305A4DF4008CBA9E /* Debug configuration for PBXProject "week3_application" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +170,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -187,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		491576EF30590FBE003EC147 /* Release */ = {
+		4986038A305A4DF4008CBA9E /* Release configuration for PBXProject "week3_application" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,27 +225,25 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		491576F130590FBE003EC147 /* Debug */ = {
+		4986038C305A4DF4008CBA9E /* Debug configuration for PBXNativeTarget "week3_application" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		491576F230590FBE003EC147 /* Release */ = {
+		4986038D305A4DF4008CBA9E /* Release configuration for PBXNativeTarget "week3_application" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -262,25 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		491576E430590FBE003EC147 /* Build configuration list for PBXProject "week1" */ = {
+		4986037F305A4DF4008CBA9E /* Build configuration list for PBXProject "week3_application" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				491576EE30590FBE003EC147 /* Debug */,
-				491576EF30590FBE003EC147 /* Release */,
+				49860389305A4DF4008CBA9E /* Debug configuration for PBXProject "week3_application" */,
+				4986038A305A4DF4008CBA9E /* Release configuration for PBXProject "week3_application" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491576F030590FBE003EC147 /* Build configuration list for PBXNativeTarget "week1" */ = {
+		4986038B305A4DF4008CBA9E /* Build configuration list for PBXNativeTarget "week3_application" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				491576F130590FBE003EC147 /* Debug */,
-				491576F230590FBE003EC147 /* Release */,
+				4986038C305A4DF4008CBA9E /* Debug configuration for PBXNativeTarget "week3_application" */,
+				4986038D305A4DF4008CBA9E /* Release configuration for PBXNativeTarget "week3_application" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 491576E130590FBE003EC147 /* Project object */;
+	rootObject = 4986037C305A4DF4008CBA9E /* Project object */;
+	validationLevel = 1;
 }
