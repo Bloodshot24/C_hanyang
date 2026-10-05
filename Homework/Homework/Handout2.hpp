@@ -9,5 +9,6 @@
 #define Handout2_hpp
 
 #include <stdio.h>
-
+void H2_Exercise1();
+void H2_Exercise2(int n);
 #endif /* Handout2_hpp */

@@ -10,4 +10,8 @@
 
 #include <stdio.h>
 
+void H1_Exercise_2();
+void H1_Exercise_3();
+void H1_Exercise_4();
+
 #endif /* Handout1_hpp */

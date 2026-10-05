@@ -9,5 +9,5 @@
 #define Application_Week_1_hpp
 
 #include <stdio.h>
-
+void W1_quizz1();
 #endif /* Application_Week_1_hpp */

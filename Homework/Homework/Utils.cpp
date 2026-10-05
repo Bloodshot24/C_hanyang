@@ -6,3 +6,13 @@
 //
 
 #include "Utils.hpp"
+#include <iostream>
+#include <vector>
+
+
+void Show_vector(std::vector<int> array){
+    for(int i=0;i<array.size();i++){
+        std::cout << "\t" << array[i];
+    }
+    std::cout << std::endl;
+}

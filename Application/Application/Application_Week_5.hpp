@@ -7,7 +7,9 @@
 
 #ifndef Application_Week_5_hpp
 #define Application_Week_5_hpp
-
+#include <iostream>
+#include <vector>
 #include <stdio.h>
-
+void QuickSort(std::vector<int>& array,int begin,int end);
+void heapSort(std::vector<int>& a, int begin, int end);
 #endif /* Application_Week_5_hpp */

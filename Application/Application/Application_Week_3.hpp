@@ -9,5 +9,5 @@
 #define Application_Week_3_hpp
 
 #include <stdio.h>
-
+void Max_Subarray_value();
 #endif /* Application_Week_3_hpp */

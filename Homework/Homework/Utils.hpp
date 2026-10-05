@@ -9,5 +9,7 @@
 #define Utils_hpp
 
 #include <stdio.h>
+#include <vector>
+void Show_vector(std::vector<int> array);
 
 #endif /* Utils_hpp */
