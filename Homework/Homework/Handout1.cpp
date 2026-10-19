@@ -59,9 +59,7 @@ void H1_Exercise_4(){
     initial_b=b;
     
     if(a<b) {
-        int c=a;
-        a=b;
-        b=c;
+        std::swap(a, b);
     }
     while(a%b!=0){
         int r = a%b;
