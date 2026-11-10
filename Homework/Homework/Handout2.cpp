@@ -39,13 +39,9 @@ void permutNumbers(std::vector<int> tab ,int index){
         return;
     }
     for (int i = index; i<tab.size(); i++) {
-        int temp = tab[i];
-        tab[i] = tab[index];
-        tab[index] = temp;
+        std::swap(tab[i],tab[index]);
         permutNumbers(tab, index+1);
-        temp = tab[i];
-        tab[i] = tab[index];
-        tab[index] = temp;
+        std::swap(tab[i], tab[index]);
     }
 }
 int sum_down(int x)

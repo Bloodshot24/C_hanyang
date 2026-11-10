@@ -9,6 +9,7 @@
 #include "Handout1.hpp"
 #include "Handout2.hpp"
 #include "Handout3.hpp"
+#include "Handout4.hpp"
 #include "Utils.hpp"
 
 void Handout1(){
@@ -24,8 +25,13 @@ void Handout3(char text[]){
     H3_Exercise1(text);
     H3_Exercise2(text);
 }
+
+void Handout4(){
+    application();
+}
 int main(int argc, const char * argv[]) {
-    Handout1();
-    //Handout2(3);
+    //Handout1();
+    //Handout2(4);
     //Handout3("Today is a nice day for having a little picnic.");
+    Handout4();
 }
