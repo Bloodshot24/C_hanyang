@@ -27,7 +27,7 @@ void Handout3(char text[]){
 }
 
 void Handout4(){
-    application();
+    Homework4();
 }
 int main(int argc, const char * argv[]) {
     //Handout1();

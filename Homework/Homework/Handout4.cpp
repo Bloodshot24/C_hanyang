@@ -42,7 +42,7 @@ Courses::Courses(int i,std::string instruc,int room){
 
 
 void query(std::vector<Student>& students, int courseId) {
-    std::cout << "Etudiants du cours " << courseId << " :\n";
+    std::cout << "Etudiants of course " << courseId << " :\n";
     for (size_t i = 0; i < students.size(); i++)
         if (students[i].attends(courseId))
             std::cout << "  " << students[i].get_name()
@@ -52,7 +52,7 @@ void query(std::vector<Student>& students, int courseId) {
 
 
 
-void application(){
+std::vector<Student> application(){
     Courses math(101, "Dr Martin", 12);
      Courses info(102, "Dr Lee", 5);
   
@@ -65,7 +65,10 @@ void application(){
      students[0].add_course(info);
      students[1].add_course(math);
      students[2].add_course(info);
-  
-     query(students, 101);
-     query(students, 102);
+    return students;
+}
+
+void Homework4(){
+    std::vector<Student> students = application();
+    query(students,101);
 }

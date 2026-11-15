@@ -67,6 +67,6 @@ class Student{
     
         
 };
-void application();
+void Homework4();
 
 #endif /* Handout4_hpp */
