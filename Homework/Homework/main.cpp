@@ -10,6 +10,7 @@
 #include "Handout2.hpp"
 #include "Handout3.hpp"
 #include "Handout4.hpp"
+#include "Handout 5.hpp"
 #include "Utils.hpp"
 
 void Handout1(){
@@ -29,9 +30,14 @@ void Handout3(char text[]){
 void Handout4(){
     Homework4();
 }
+
+void Handout5(){
+    application2();
+}
 int main(int argc, const char * argv[]) {
     //Handout1();
     //Handout2(4);
     //Handout3("Today is a nice day for having a little picnic.");
-    Handout4();
+    //Handout4();
+    Handout5();
 }
